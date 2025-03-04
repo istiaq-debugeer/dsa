@@ -6,7 +6,7 @@ class Solution:
 
         for num in arr:
             if num in seen:
-
+                return True
                 duplicates.append(num)  # Found a duplicate
             else:
                 seen.add(num)  # Add first occurrence to set
